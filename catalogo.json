@@ -72,7 +72,7 @@
    {
        "nombre": "FISH OIL (ON)",
        "precio": "99",
-       "imagen": "../img/fish_oil.jpg"
+       "imagen": "fish_oil.jpg"
    }
 
    
