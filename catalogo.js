@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.querySelector("#productos .grid");
 
     // Fetch data from the JSON file
-    fetch("../js/catalogo.json")
+    fetch("catalogo.json")
         .then((response) => {
             if (!response.ok) {
                 throw new Error("No se pudo cargar los datos.");
