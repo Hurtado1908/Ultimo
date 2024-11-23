@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Actualiza la ruta del JSON
-    fetch("objetivo_ganarmasa.json")
+    fetch("/data/objetivo_ganarmasa.json")
         .then((response) => {
             if (!response.ok) {
                 throw new Error("No se pudo cargar los datos.");
