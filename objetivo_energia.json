@@ -2,23 +2,23 @@
     {
         "nombre": "EAA (KEVIN LEVRONE)",
         "precio": "162",
-        "imagen": "../img/EAA.jpg"
+        "imagen": "EAA.jpg"
 
 
     },
     {
         "nombre": "INSANE ORIGINAL(DEMONS LAB)",
         "precio": "S/ 169",
-        "imagen": "../img/Insane.jpg"
+        "imagen": "Insane.jpg"
     },
     {
         "nombre": "C4 ORIGINAL(CELLUCOR)",
         "precio": "165",
-        "imagen": "../img/c4.jpg"
+        "imagen": "c4.jpg"
     },
     {
         "nombre": "AGOLD STANDARD PRE-WORKOUT ",
         "precio": "169",
-        "imagen": "../img/preworking.jpg"
+        "imagen": "preworking.jpg"
     }
 ]
