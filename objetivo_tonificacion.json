@@ -1,0 +1,22 @@
+[
+    {
+        "nombre": "Fish Oil",
+        "precio": "269",
+        "imagen": "../img/fish_oil.jpg"
+    },
+    {
+        "nombre": "Serious Mass (ON)",
+        "precio": "229",
+        "imagen": "../img/zinc.jpg"
+    },
+    {
+        "nombre": "ISO-XP",
+        "precio": "339",
+        "imagen": "../img/ISO-XP.jpg"
+    },
+    {
+        "nombre": "Anabolic Mass",
+        "precio": "239",
+        "imagen": "../img/anabolicMASS.jpg"
+    }
+]

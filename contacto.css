@@ -1,0 +1,60 @@
+/* contacto.css */
+.contact-section {
+    background-color: #f7fafc;
+}
+
+.contact-form-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+    color: #2d3748;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.contact-form-container label {
+    font-weight: 600;
+    color: #4a5568;
+}
+
+.contact-form-container input[type="text"],
+.contact-form-container input[type="tel"],
+.contact-form-container input[type="email"],
+.contact-form-container textarea {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    margin-top: 0.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.contact-form-container input:focus,
+.contact-form-container textarea:focus {
+    border-color: #48bb78;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(72, 187, 120, 0.3);
+}
+
+.contact-form-container button {
+    background-color: #48bb78;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form-container button:hover {
+    background-color: #38a169;
+}

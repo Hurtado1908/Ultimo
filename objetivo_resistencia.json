@@ -1,0 +1,24 @@
+[
+    {
+        "nombre": "CREATINE MONOHYDRATE (APPLIED NITRUTION)",
+        "precio": "199",
+        "imagen": "../img/crea.jpg"
+
+
+    },
+    {
+        "nombre": "SERIUOS MASS (ON)",
+        "precio": "179",
+        "imagen": "../img/MicronizecCrea.jpg"
+    },
+    {
+        "nombre": "BCAA CAPSULAS (PROBIOTICA)",
+        "precio": "149",
+        "imagen": "../img/BCAAPLUS.jpg"
+    },
+    {
+        "nombre": "CREATINA MONOHYDRATE (BIRDMAN)",
+        "precio": "199",
+        "imagen": "../img/Creatina.jpg"
+    }
+]

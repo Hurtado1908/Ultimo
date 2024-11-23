@@ -1,0 +1,7 @@
+.img-grande {
+    width: 50%; /* Ocupa todo el ancho disponible */
+    height: 200px; /* Altura fija para mantener consistencia */
+    object-fit: contain; /* Recorta la imagen si no se ajusta perfectamente */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra opcional */
+}

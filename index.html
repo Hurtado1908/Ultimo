@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PrimeFit Nutrition</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="catalogo.css" />
+    <link rel="stylesheet" href="modal.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="imgrande.css" />
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <!-- Contenedores donde se insertarán las secciones -->
+    <div id="header"></div>
+    <div id="objetivos"></div>
+    <div id="productos"></div>
+    <div id="footer"></div>
+
+    <script>
+      // Función para cargar un archivo HTML en un div específico
+      function loadContent(sectionId, file) {
+        fetch(file)
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById(sectionId).innerHTML = data;
+          })
+          .catch((error) =>
+            console.error("Error al cargar el contenido:", error)
+          );
+      }
+
+      // Cargar las secciones
+      loadContent("header", "header.html");
+      loadContent("quienessomos", "quienessomos.html"); // Añadir esta línea
+      loadContent("objetivos", "objetivos.html");
+      loadContent("productos", "productos.html");
+      loadContent("catalogo", "catalogo.html"); // Añadir esta línea
+      loadContent("contacto", "contacto.html");
+      loadContent("footer", "footer.html");
+    </script>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="catalogo.js"></script>
+  </body>
+</html>

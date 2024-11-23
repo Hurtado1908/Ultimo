@@ -1,0 +1,29 @@
+[
+    {
+        "nombre": "Gold Standard 100% Whey",
+        "precio": "269",
+        "imagen": "/img/goldstadarWHEY.jpg"
+
+
+    },
+    {
+        "nombre": "Serious Mass (ON)",
+        "precio": "229",
+        "imagen": "/img/seriousMASS.jpg"
+    },
+    {
+        "nombre": "ISO-XP",
+        "precio": "339",
+        "imagen": "/img/ISO-XP.jpg"
+    },
+    {
+        "nombre": "Anabolic Mass",
+        "precio": "239",
+        "imagen": "/img/anabolicMASS.jpg"
+    },
+       {
+        "nombre": "Impact whey Protein (MyProtein)",
+        "precio": "259",
+        "imagen": "/img/WheyProtein.jpg"
+    }
+]

@@ -1,0 +1,178 @@
+/* Reset básico y variables */
+:root {
+    --primary-green: #16a34a;
+    --hover-yellow: #fde047;
+    --text-white: #ffffff;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --transition-speed: 0.3s;
+  }
+  
+  /* Estilos generales */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+  
+  /* Animación de entrada */
+  .fade-in {
+    animation: fadeIn 0.8s ease-in;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Estilos del header */
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(255, 255, 255, 0.98);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 10px var(--shadow-color);
+    transition: all var(--transition-speed) ease;
+  }
+  
+  header:hover {
+    box-shadow: 0 4px 20px var(--shadow-color);
+  }
+  
+  header img {
+    transition: transform var(--transition-speed) ease;
+  }
+  
+  header img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Estilos de la navegación */
+  nav {
+    background: var(--primary-green);
+    box-shadow: 0 4px 6px -1px var(--shadow-color);
+  }
+  
+  nav h1 {
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .nav-bar {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-bar li a {
+    color: var(--text-white);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem;
+    transition: all var(--transition-speed) ease;
+    position: relative;
+  }
+  
+  .nav-bar li a::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--hover-yellow);
+    transition: width var(--transition-speed) ease;
+  }
+  
+  .nav-bar li a:hover::after {
+    width: 100%;
+  }
+  
+  .nav-bar li a:hover {
+    color: var(--hover-yellow);
+    text-shadow: 0 0 8px rgba(253, 224, 71, 0.3);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      padding: 1rem;
+      gap: 1rem;
+      text-align: center;
+    }
+  
+    .nav-bar {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    nav h1 {
+      font-size: 1.5rem;
+    }
+  
+    .nav-bar li a {
+      display: block;
+      padding: 0.75rem;
+    }
+  
+    header img {
+      height: 2.5rem;
+    }
+  }
+  
+  /* Efectos de scroll */
+  @media (min-width: 768px) {
+    header.scrolled {
+      padding: 0.5rem 0;
+    }
+  
+    header.scrolled img {
+      height: 2.5rem;
+    }
+  }
+  
+  /* Animación para el menú móvil */
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Utilidades adicionales */
+  .container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  /* Estado activo para la navegación */
+  .nav-bar li a.active {
+    color: var(--hover-yellow);
+    font-weight: 600;
+  }
+  
+  /* Efecto de hover mejorado */
+  .nav-bar li a:hover {
+    transform: translateY(-1px);
+  }
+  
+  /* Efecto de click */
+  .nav-bar li a:active {
+    transform: translateY(1px);
+  }

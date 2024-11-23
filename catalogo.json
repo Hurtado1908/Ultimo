@@ -1,0 +1,79 @@
+[
+   {
+       "nombre": "Gold Standard 100% Whey",
+       "precio": "269",
+       "imagen": "../img/goldstadarWHEY.jpg"
+   },
+   {
+       "nombre": "Serious Mass (ON)",
+       "precio": "229",
+       "imagen": "../img/seriousMASS.jpg"
+   },
+   {
+       "nombre": "ISO-XP",
+       "precio": "339",
+       "imagen": "../img/ISO-XP.jpg"
+   },
+   {
+       "nombre": "Anabolic Mass",
+       "precio": "239",
+       "imagen": "../img/anabolicMASS.jpg"
+   },
+      {
+       "nombre": "Impact whey Protein (MyProtein)",
+       "precio": "259",
+       "imagen": "../img/WheyProtein.jpg"
+   },
+   {
+       "nombre": "EEA (Kevin Levrone)",
+       "precio": "162",
+       "imagen": "../img/EAA.jpg"
+   },
+   {
+       "nombre": "Insane Original (Demon Lab)",
+       "precio": "169",
+       "imagen": "../img/Insane.jpg"
+   },
+   {
+       "nombre": "C4 Original (CELLUCOR)",
+       "precio": "165",
+       "imagen": "../img/c4.jpg"
+   },
+   {
+       "nombre": "Gold Standard Pre-Workout",
+       "precio": "169",
+       "imagen": "../img/preworking.jpg"
+   },
+   {
+       "nombre": "Creatina Monohydrate (APPLIED NUTRITION)",
+       "precio": "199",
+       "imagen": "../img/crea.jpg"
+   },
+   {
+       "nombre": "Creatina Monohydrate (BIRDMAN)",
+       "precio": "169",
+       "imagen": "../img/Creatina.jpg"
+   },
+   {
+       "nombre": "Serious Mass Creatina Micronizec (ON)",
+       "precio": "165",
+       "imagen": "../img/MicronizecCrea.jpg"
+   },
+   {
+       "nombre": "BCAA Capsulas (PROBIOTICA) ",
+       "precio": "149",
+       "imagen": "../img/BCAA.jpg"
+   },
+   {
+       "nombre": "ZINC & MAGNESIUM (PROTEIN WORKS)",
+       "precio": "89",
+       "imagen": "../img/zinc.jpg"
+   },
+   {
+       "nombre": "FISH OIL (ON)",
+       "precio": "99",
+       "imagen": "../img/fish_oil.jpg"
+   }
+
+   
+]
