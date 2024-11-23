@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Fetch data from the JSON file
-    fetch("../objetivos_js/objetivo_ganarmasa.json")
+    fetch("objetivo_ganarmasa.json")
         .then((response) => {
             if (!response.ok) {
                 throw new Error("No se pudo cargar los datos.");
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 }
 
                 htmlContent += `
-                    <a href="/funciones/productos/ganar-masa/${getProductUrl(producto.nombre)}"
+                    <a href="/ganar-masa/${getProductUrl(producto.nombre)}"
                        class="block bg-white p-4 shadow rounded-lg catalogo transform transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
                         <div class="relative overflow-hidden">
                             <img src="${producto.imagen}" 
