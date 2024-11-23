@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     // Fetch data from the JSON file
-    fetch("../objetivos_js/objetivo_resistencia.json")
+    fetch("objetivo_resistencia.json")
         .then((response) => {
             if (!response.ok) {
                 throw new Error("No se pudo cargar los datos.");
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
             // Render products
             catalogo.forEach((producto) => {
                 const productHTML = `
-                    <a href="/funciones/productos/resistencia/${getProductUrl(producto.nombre)}" 
+                    <a href="/resistencia/${getProductUrl(producto.nombre)}" 
                        class="block bg-white p-4 shadow rounded-lg catalogo transform transition-transform duration-300 hover:scale-105 hover:shadow-lg cursor-pointer">
                         <div class="relative overflow-hidden">
                             <img src="${producto.imagen}" 
